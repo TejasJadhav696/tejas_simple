@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box{
+    width: 80%;
+    min-height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    /* background-image: linear-gradient(45deg,#304352,#d7d2cc,#6b6b83); */
+    background-image: url(/images/Wallpapers-pexels-photo.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.box .main-div{
+    width: 100%;
+    height: 100px;
+}
+.main-div .logo{
+    width: 35%;
+    padding: 20px;
+    float: left;
+}
+.logo h1{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.main-div .menu{
+    width: 60%;
+    padding: 30px;
+    float: right;
+}
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.menu a:hover{
+    background-color: #7FFF00;
+    color: black;
+}
+.box .login{
+    width: 25%;
+    height: 300px;
+    border: 2px solid white;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}

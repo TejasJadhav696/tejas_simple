@@ -1,0 +1,82 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 80%;
+    min-height: 300px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+.main-header{
+    width: 100%;
+    height: 100px;
+    background-color: #009973;
+}
+.main-header .main-logo
+{
+    width: 48%;
+    height: 100px;
+    float: left;
+}
+.main-logo .img{
+    width: 50%;
+    height: 90px;
+    float: left;
+}
+.main-logo .logo{
+    float: right;
+    width: 48%;
+    height: 100px;
+    padding-top: 20px;
+}
+.main-logo .img img{
+    width: 80%;
+    height: 90px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.main-header .menu{
+    float: right;
+    width: 48%;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.main-mid{
+    width: 100%;
+    height: 800px;
+    margin-top: 5px;
+    background-color: #ffff80;
+}
+.main-mid .images{
+    float: right;
+    width: 60%;
+    height: 100%;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+}
+.main-mid .write{
+    width: 40%;
+    height: 750px;
+    text-align: left;
+    padding-top: 250px;
+}
+.write h1{
+    padding: 5px;
+    font-size: 60px;
+}
+.write a{
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
