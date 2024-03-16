@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+section
+{
+    width: 80%;
+    height: 90vh;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(180deg,#BBD2C5,#536976,#292e42), url(/images/Money-removebg-preview.png);
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.contant
+{
+    width: 60%;
+    max-height: 700px;
+    /* border: 2px solid black; */
+
+}
+.contant h1
+{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contant p
+{
+    /* background-color: blue; */
+    color: whitesmoke;
+    font-size: 30px;
+}
+p:hover{
+    background-color: #292e42;
+}
+.custom-shape-divider-bottom-1709159649 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1709159649 svg {
+    position: relative;
+    display: block;
+    width: calc(136% + 1.3px);
+    height: 163px;
+}
+
+.custom-shape-divider-bottom-1709159649 .shape-fill {
+    fill: #FFFFFF;
+}
+.Wave
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section img
+{
+    width: 550px;
+    position: relative;
+}
+.menu
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+.menu a
+{
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover
+{
+    background-color: #292e42;
+    color: #BBD2C5;
+}
+.Header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Header p
+{
+    font-size: 15px;
+}
