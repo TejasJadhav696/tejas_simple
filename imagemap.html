@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box
+        {
+            width: 80%;
+            min-height: 300px;
+            border: 2px solid black;
+            margin: auto;
+            background-image:linear-gradient(45deg,#833ab4, #fd1d1d, #fcb045);
+        }
+        img
+        {
+            width: 90%;
+            height: 700px;
+            padding: 10px;
+            padding-left: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <img src="images/Maharashtra.jpg" usemap="#mymap">
+        <map name="mymap">
+        <area shape="poly" coords="225,311,294,271,380,321,323,359,358,407,334,428" href="https://ahmednagar.nic.in/en/" target="_blank">
+
+        <area shape="circle" coords="224,326,177,394,209,452,279,456,336,467,322,438" href="https://aurangabad.gov.in/en/" target="_blank">
+        <area shape="poly" coords="317,270,427,196,407,310" href="https://en.wikipedia.org/wiki/Pune" alt="">
+        </map>
+    </div>
+</body>
+</html>
